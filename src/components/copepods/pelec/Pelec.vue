@@ -1,6 +1,6 @@
 <template>
   <el-row justify="center">
-    <el-col :span="8">
+    <el-col :md="12" :xs="24" :sm="24">
   <el-timeline>
     <el-timeline-item  placement="top">
       <el-card>
@@ -26,8 +26,8 @@
             <h3>Крыло более 500 мм, клюв более 200 мм?</h3>
           </el-col>
           <el-col>
-            <el-button round class="button" type="success" @click="this.$router.push('pink-pelec')">ДА</el-button>
-            <el-button round class="button" type="danger" @click="this.$router.push('crispus-pelec')">НЕТ</el-button>
+            <el-button round class="button" type="success" @click="this.$router.push('/pink-pelec')">ДА</el-button>
+            <el-button round class="button" type="danger" @click="this.$router.push('/crispus-pelec')">НЕТ</el-button>
           </el-col>
           <el-col >
             <img

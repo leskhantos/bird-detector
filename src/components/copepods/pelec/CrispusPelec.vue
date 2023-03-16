@@ -1,6 +1,6 @@
 <template>
   <el-row justify="center">
-    <el-col :span="8">
+    <el-col :md="12" :xs="24" :sm="24">
       <el-timeline>
         <el-timeline-item  placement="top">
           <el-card>

@@ -1,6 +1,6 @@
 <template>
   <el-row justify="center">
-    <el-col span="8">
+    <el-col :md="12" :xs="24" :sm="24">
       <el-timeline>
         <el-timeline-item timestamp="ВОПРОС:" placement="top">
           <el-card>
@@ -11,7 +11,7 @@
         <el-timeline-item timestamp="ОТВЕТ:" placement="top">
           <el-card>
             <h2>Отряд ВЕСЛОНОГИЕ – PELECANIFORMES</h2>
-            <router-link to="copepodscontinue">Продолжить определение птицы</router-link>
+            <router-link to="/copepodscontinue">Продолжить определение птицы</router-link>
           </el-card>
         </el-timeline-item>
       </el-timeline>

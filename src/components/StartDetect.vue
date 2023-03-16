@@ -1,6 +1,6 @@
 <template>
   <el-row justify="center">
-    <el-col span="8">
+    <el-col :md="12" :xs="24" :sm="24">
       <el-card :body-style="{ padding: '0px' }">
         <el-row>
           <el-col>
@@ -20,8 +20,8 @@
         <div style="padding: 14px">
           <span>Все четыре пальца соединены перепонкой?</span>
           <div class="bottom">
-            <el-button round class="button" type="success" @click="this.$router.push('copepods')">ДА</el-button>
-            <el-button round class="button" type="danger" @click="this.$router.push('notcopepods')">НЕТ</el-button>
+            <el-button round class="button" type="success" @click="this.$router.push('/copepods')">ДА</el-button>
+            <el-button round class="button" type="danger" @click="this.$router.push('/notcopepods')">НЕТ</el-button>
           </div>
         </div>
       </el-card>

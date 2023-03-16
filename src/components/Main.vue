@@ -10,8 +10,8 @@ import { Menu, Search } from '@element-plus/icons-vue'
       <h1>ОПРЕДЕЛИТЕЛЬ ПТИЦ КАЗАХСТАНА</h1>
       <p>(пособие для студентов и начинающих специалистов)</p>
       <el-row justify="center">
-        <el-button type="success" size="large" class="main_page-btn" @click="this.$router.push('/menu')" round :icon="Menu">Меню</el-button>
-        <el-button type="success" size="large" @click="this.$router.push('/start-detect')" round :icon="Search">Начать определение</el-button>
+        <el-button type="success" size="large" class="main_page-btn" @click="$router.push('/menu')" round :icon="Menu">Меню</el-button>
+        <el-button type="success" size="large" @click="$router.push('/start-detect')" round :icon="Search">Начать определение</el-button>
       </el-row>
 
       <el-row justify="center" >
