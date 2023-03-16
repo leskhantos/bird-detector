@@ -10,7 +10,7 @@
                 width="400"
                 height="300"
             />
-          </el-col>\
+          </el-col>
           <el-col>
             <i>Лапа большого баклана</i>
           </el-col>
@@ -20,8 +20,8 @@
         <div style="padding: 14px">
           <span>Все четыре пальца соединены перепонкой?</span>
           <div class="bottom">
-            <el-button round class="button" type="success">ДА</el-button>
-            <el-button round class="button" type="danger">НЕТ</el-button>
+            <el-button round class="button" type="success" @click="this.$router.push('copepods')">ДА</el-button>
+            <el-button round class="button" type="danger" @click="this.$router.push('notcopepods')">НЕТ</el-button>
           </div>
         </div>
       </el-card>
